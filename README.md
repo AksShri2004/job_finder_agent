@@ -35,16 +35,3 @@ The extraction agent is programmed to strictly adhere to a JSON schema. If infor
 * **Work Experience**: Roles, companies, dates, and technologies used.
 * **Skills**: Categorized into Programming, Frameworks, Cloud, and Databases.
 * **Projects & Certifications**: Descriptions, URLs, and issuing organizations.
-
-## 🚀 Quick Start
-
-```python
-from job_finder_agent.agent import root_agent
-
-# Pass the resume text into the pipeline
-resume_text = "Your Resume Content Here..."
-results = root_agent.run(input=resume_text)
-
-# Access the final output or intermediate steps
-print(results['suggested_roles'])
-print(results['interview_questions'])
