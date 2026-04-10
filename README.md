@@ -19,7 +19,7 @@ The project utilizes a `SequentialAgent` named `Job_Finder_Agent`. It orchestrat
 ## 🤖 The Agent Pipeline
 The `job_finder_agent` executes the following sequence:
 
-<img src="static/image.png" alt="Alt text" width="200" height="100">
+<img src="static/image.png" alt="Alt text" width="2000" height="1000">
 
 | Step | Agent Name | Responsibility | Output Key |
 | :--- | :--- | :--- | :--- |
