@@ -1,5 +1,3 @@
-resume_text = "xyz"
-
 prompt = """You are an expert Applicant Tracking System (ATS) and precise data extraction agent. 
 Your primary task is to deeply analyze the provided resume text and extract all relevant professional, academic, and personal information into a strict, highly descriptive JSON format.
 

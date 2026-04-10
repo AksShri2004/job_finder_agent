@@ -1,8 +1,7 @@
 from google.adk.agents import LlmAgent, SequentialAgent
-import job_finder_agent.prompt_for_resume as prompt_for_resume
+from . import prompt_for_resume
 
 GEMINI_MODEL = "gemini-2.5-flash"
-
 
 
 resume_extraction_agent = LlmAgent(
@@ -45,8 +44,6 @@ job_finder_agent = SequentialAgent(
     name="Job_Finder_Agent",
     sub_agents=[resume_extraction_agent, role_suggestion_agent, job_search_agent, interview_questions_agent, interview_tips_agent]
 )
-
-print(role_suggestion_agent.output_key)
 
 
 root_agent = job_finder_agent

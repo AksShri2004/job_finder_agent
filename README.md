@@ -19,6 +19,8 @@ The project utilizes a `SequentialAgent` named `Job_Finder_Agent`. It orchestrat
 ## 🤖 The Agent Pipeline
 The `job_finder_agent` executes the following sequence:
 
+<img src="static/image.png" alt="Alt text" width="200" height="100">
+
 | Step | Agent Name | Responsibility | Output Key |
 | :--- | :--- | :--- | :--- |
 | 1 | **Resume_Extraction_Agent** | Parses raw resume text into structured JSON. | `extracted_resume_data` |
